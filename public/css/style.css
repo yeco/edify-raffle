@@ -75,3 +75,15 @@ body {
 	text-align: justify;
 	padding: 7px;
 }
+button{
+	font-size:22px;
+	padding:10px 30px;
+	background:#EE7400;
+	border:0;
+	color:whitesmoke;
+	cursor:pointer;
+}
+
+button:hover{
+	background:#D16602;
+}
