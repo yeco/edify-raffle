@@ -79,7 +79,7 @@ function Ticket (name, points) {
   if (typeof (points) == 'number')
     this.points = points
   else
-    this.points = 7 // Math.floor(Math.random() * 4) + 1
+    this.points = 2 // Math.floor(Math.random() * 4) + 1
   this.dom = $("<div class='ticket'>").text(name)
   this.fixPosition = function () {
     var me = this
