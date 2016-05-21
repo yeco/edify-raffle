@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Edify Raffle</title>
+	<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>	
+	<script src = 'js/jquery-ui-1.8.23.custom.min.js'></script>
+	<script type="text/javascript" src="js/names.js"></script>	
+	<script type="text/javascript" src="js/raffle.js"></script>	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/raffle.css">
+</head>
+<body>
+	<div class="header">
+	<div class="container">
+		
+	    <div class="logo"><img src="images/logo.png"></div>
+		<div class="participants">
+			
+		<span>Participants:<b id="participant-number">0</b></span>
+		</div>
+		</div>
+
+	</div>
+	<div class='enter-names'>
+		<h2>[ Enter names separated by new lines: ] </h2>
+		<textarea class='name-text-field'></textarea>
+		<button onclick="process();">Import</button>
+	</div>
+</body>
+</html>
